@@ -1,5 +1,26 @@
-.App {
-  text-align: center;
+
+h1 {
+  margin-left: 25%;
+  align-content: center;
+  margin-left: 35% ;
+
+}
+
+h2 {
+  margin-left: 17%;
+  align-content: center;
+  margin-left: 20% ;
+
+}
+
+
+button   {
+  margin-left: 35% ;
+}
+ 
+img{
+  height: 250px;
+  margin-left: 25% ;
 }
 
 .App-logo {

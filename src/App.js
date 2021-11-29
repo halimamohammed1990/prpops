@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Profile from "./Profile/profile";
+import Photo from "./meme.jpg";
+import "./App.css";
+export default function App() {
+  const funprop = () => {
+    return alert("this my alert");
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile fullname="البحر"  bio="يأخذ البحر مساحةً كبيرة من القصائد والخواطر والقصص والروايات."    Photo={Photo} alert={funprop} />
     </div>
   );
 }
-
-export default App;
